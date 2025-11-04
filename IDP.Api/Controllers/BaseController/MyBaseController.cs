@@ -5,7 +5,8 @@ namespace IDP.Api.Controllers.BaseController
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class IBaseController : ControllerBase
+    public class MyBaseController : ControllerBase
     {
+
     }
 }

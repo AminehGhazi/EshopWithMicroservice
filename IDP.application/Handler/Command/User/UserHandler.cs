@@ -12,7 +12,7 @@ namespace IDP.application.Handler.Command.User
     {
         public async  Task<bool> Handle(UserCommand request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }
