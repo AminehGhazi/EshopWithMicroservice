@@ -12,6 +12,7 @@ namespace IDP.application.Commands.user
     {
         [Required(ErrorMessage ="نام الزامی است ")]
         [MinLength(4)]
-        public string Name { get; set; }
+        public required string FullName { get; set; }
+        public required string NumberCode { get; set; }
     }
 }
